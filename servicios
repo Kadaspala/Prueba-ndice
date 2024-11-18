@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Nuestros Servicios</title>
+    <style>
+        .servicio {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .precio {
+            font-weight: bold;
+            color: #2c5282;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nuestros Servicios</h1>
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Servicios Disponibles</h2>
+            
+            <div class="servicio">
+                <h3>Diseño Web</h3>
+                <p>Creamos sitios web modernos y responsivos adaptados a tus necesidades.</p>
+                <p class="precio">Desde $500</p>
+                <ul>
+                    <li>Diseño personalizado</li>
+                    <li>Optimización móvil</li>
+                    <li>SEO básico</li>
+                </ul>
+            </div>
+
+            <div class="servicio">
+                <h3>Desarrollo de Aplicaciones</h3>
+                <p>Desarrollamos aplicaciones web y móviles para tu negocio.</p>
+                <p class="precio">Desde $1000</p>
+                <ul>
+                    <li>Apps Android/iOS</li>
+                    <li>Aplicaciones web</li>
+                    <li>Mantenimiento incluido</li>
+                </ul>
+            </div>
+
+            <div class="servicio">
+                <h3>Marketing Digital</h3>
+                <p>Estrategias completas de marketing digital para aumentar tu presencia online.</p>
+                <p class="precio">Desde $300/mes</p>
+                <ul>
+                    <li>Gestión de redes sociales</li>
+                    <li>Campañas de email marketing</li>
+                    <li>Análisis de resultados</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>¿Por qué elegirnos?</h2>
+            <ul>
+                <li>Más de 10 años de experiencia</li>
+                <li>Atención personalizada</li>
+                <li>Soporte técnico 24/7</li>
+                <li>Garantía de satisfacción</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Mi Empresa | Todos los derechos reservados</p>
+        <p>¿Tienes preguntas? <a href="contacto.html">Contáctanos</a></p>
+    </footer>
+</body>
+</html>
